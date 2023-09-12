@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Registration Page</title>
+    <link rel="icon" type="image/x-icon" href="icon/Image_icon/desktop_signin_ui_app_login_register_user_interface_template_icon_179464.png">
+</head>
+<body style="background-color: black;">
+    <div class="row">
+        <div class="col-lg-12 col-12">
+          <center>
+            <div class="image">
+              <img src="icon/Google sitemap-amico.svg" alt="Reg">
+            </div>
+         </center>
+        </div>
+    </div>
+
+
+    
+        <div id="t1">
+            <h1> REGISTRATION FORM : </h1>
+        </div>
+        <form class="form">
+            <div class="c1">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputtypeofcin" class="form-label">Type of cinema : </label>
+                        <br>
+                        <select name="exampleInputtypeofcin" id="exampleInputtofcinema" class="form-label" onclick="getOption()">
+                            <option value="" disabled selected>Select type of cinema</option>
+                            <option value="Ordinary Cinema">Ordinary Cinema</option>
+                            <option value="Cars Cinema">Cars Cinema</option>
+                            <option value="3D">3D</option>
+                            <option value="9D">9D</option>
+                            <option value="Bed Cinema">Bed Cinema</option>
+                            <option value="Private Cinema">Private Cinema</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <!-- <p style="color: antiquewhite;"> Price of type :          
+                        <span class="output" style=" color: aliceblue;"> </span>     
+                    </p>
+                    <br>  -->
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceoftype" class="form-label" >Price of type : </label>
+                        <input type="text" class="form-control output" id="exampleInputpriceoftype" disabled>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputnameoffilm" class="form-label">Name of film : </label>
+                        <br>
+                        <select name="exampleInputtypeofcin" id="exampleInputnameoffilm" class="form-label">
+                            <option value="" disabled selected>Select Film</option>
+                            <optgroup label="English movies">
+                                <option value="Avatar: The Way of Water">Avatar: The Way of Water</option>
+                                <option value="The Woman King">The Woman King</option>
+                                <option value="Violent Night">Violent Night</option>
+                                <option value="Savage Salvation">Savage Salvation</option>
+                                <option value="Black Adam">Black Adam</option>
+                                <option value="Nikki & Nora: Sister Sleuths">Nikki & Nora: Sister Sleuths</option>
+                                <option value="Agatha">Agatha</option>
+                                <option value="Overdose">Overdose</option>
+                                <option value="The Curse of La Patasola">The Curse of La Patasola</option>
+                            </optgroup>
+
+                            <optgroup label="Arabic movies">
+                                <option value="Love you (بحبك)">Love you (بحبك)</option>
+                                <option value="Spider (العنكبوت)">Spider (العنكبوت)</option>
+                                <option value="their uncle (عمهم)">their uncle (عمهم)</option>
+                                <option value="Fourth man (الرجل الرابع)">Fourth man (الرجل الرابع)</option>
+                                <option value="Kira and the jinn (كيره والجن)">Kira and the jinn (كيره والجن)</option>
+                                <option value="The light of my eyes movie (نور عيني)">The light of my eyes movie (نور عيني)</option>
+                                <option value="Another one (واحد تاني)">Another one (واحد تاني)</option>
+                                <option value="Mazinger plan (خطة مازنجر)">Mazinger plan (خطة مازنجر)</option>
+                                <option value="Open invitation (الدعوة عامة)">Open invitation (الدعوة عامة)</option>
+                            </optgroup>
+
+                            <optgroup label="Anime movies">
+                                <option value="Lyle, Lyle, Crocodile">Lyle, Lyle, Crocodile</option>
+                                <option value="The Amazing Maurice">The Amazing Maurice</option>
+                                <option value="Guillermo del Toro's Pinocchio">Guillermo del Toro's Pinocchio</option>
+                                <option value="Brave">Brave</option>
+                                <option value="Night at the Museum: Kahmunrah Rises Again">Night at the Museum: Kahmunrah Rises Again</option>
+                                <option value="Howl's Moving Castle">Howl's Moving Castle</option>
+                                <option value="Detective Conan: The Bride of Halloween">Detective Conan: The Bride of Halloween</option>
+                                <option value="Encanto">Encanto</option>
+                                <option value="Finnick">Finnick</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <br>
+
+
+                    <div class="mb-3">
+                        <label for="exampleInputnumofroom" class="form-label">Number of room : </label>
+                        <br>
+                        <select name="exampleInputnumofroom" id="exampleInputnumofroom" class="form-label">
+                            <option value="" disabled selected>Select number of room</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputnumoftik" class="form-label">Number of tickets : </label>
+                        <input type="number" class="form-control" id="exampleInputnumoftik">
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputglasses" class="form-label">Glasses : </label>
+                        <br>
+                        <select name="exampleInputglasses" id="exampleInputglasses" class="form-label">
+                            <option value="" disabled selected>Book Glasses </option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                        
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputhead" class="form-label">Headphone : </label>
+                        <br>
+                        <select name="exampleInputhead" id="exampleInputhead" class="form-label">
+                            <option value="" disabled selected>Book Headphone </option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputParking" class="form-label">Parking : </label>
+                        <br>
+                        <select name="exampleInputparking" id="exampleInputParking" class="form-label">
+                            <option value="" disabled selected>Book Parking </option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceofparking" class="form-label">Price of parking : </label>
+                        <br>
+                        <select name="exampleInputpriceofparking" id="exampleInputpriceofparking" class="form-label">
+                            <option value="" disabled selected>Price of parking</option>
+                            <option value="200 EGP">200 EGP</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputservice" class="form-label">Service car : </label>
+                        <br>
+                        <select name="exampleInputservice" id="exampleInputservice" class="form-label">
+                            <option value="" disabled selected>Book Service car </option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceofservicecar" class="form-label">Price of service car : </label>
+                        <br>
+                        <select name="exampleInputpriceofservicecar" id="exampleInputpriceofservicecar" class="form-label">
+                            <option value="" disabled selected>Price of service car</option>
+                            <option value="300 EGP">300 EGP</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputkids" class="form-label">Kids area : </label>
+                        <br>
+                        <select name="exampleInputkids" id="exampleInputkids" class="form-label">
+                            <option value="" disabled selected>Book Kids area </option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceofkidsarea" class="form-label">Price of kids area : </label>
+                        <br>
+                        <select name="exampleInputpriceofkidsarea" id="exampleInputpriceofkidsarea" class="form-label">
+                            <option value="" disabled selected>Price of kids area</option>
+                            <option value="400 EGP">400 EGP</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceoffood" class="form-label">Select type of food : </label>
+                        <br>
+                        <select name="exampleInputpriceoffood" id="exampleInputpriceoffood" class="form-label" onclick="getOption1()">
+                            <option value="" disabled selected>Select type of food</option>
+                            <option value="Large Popcorn">Large Popcorn</option>
+                            <option value="Medium Popcorn">Medium Popcorn</option>
+                            <option value="Small Popcorn">Small Popcorn</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceofood" class="form-label" >Price of food : </label>
+                        <input type="text" class="form-control output1" id="exampleInputpriceofood" disabled>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceofdrink" class="form-label">Select type of drink : </label>
+                        <br>
+                        <select name="exampleInputpriceofdrink" id="exampleInputpriceofdrink" class="form-label" onclick="getOption2()">
+                            <option value="" disabled selected>Select type of drink</option>
+                            <option value="Large Pepsi">Large Pepsi</option>
+                            <option value="Medium Pepsi">Medium Pepsi</option>
+                            <option value="Small Pepsi">Small Pepsi</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleInputpriceofdrink" class="form-label" >Price of drink : </label>
+                        <input type="text" class="form-control output2" id="exampleInputpriceofdrink" disabled>
+                    </div>
+                    <br>
+
+
+                    <div class="buttonreg">
+                        <button type="submit" class="btn btn-primary" style="background-color: salmon;position: relative; width: 150px;"><a href="seats.html" target="_blank" style="color: white;">Next</a></button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+
+
+
+
+
+        <!-- <script type="text/javascript">     
+            function getOption() {         
+                selectElement = document.querySelector('#exampleInputtofcinema');         
+                output = selectElement.value; 
+                if(output ==  "Ordinary Cinema"){
+                    document.querySelector('.output').textContent = '100';
+                }else if (output ==  "basic") {
+                    document.querySelector('.output').textContent = '200';
+                }else if(output ==  "premium"){
+                    document.querySelector('.output').textContent = '300';
+                }
+            }     
+        </script>  -->
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>

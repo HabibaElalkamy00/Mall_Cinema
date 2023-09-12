@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="seat.css" />
+    <title>Movie Seat Booking</title>
+    <link rel="icon" type="image/x-icon" href="icon/Image_icon/desk-chair_96892.png">
+  </head>
+  <body>
+    <div class="movie-container">
+      <label style="color: salmon; font-family: cursive; font-size: large;"> Select a movie:</label>
+      <select id="movie" onclick="setMovieData()">
+        <option value="" disabled selected>Select Film</option>
+        <optgroup label="English movies">
+            <option value="200 EGP">Avatar: The Way of Water</option>
+            <option value="150 EGP">The Woman King</option>
+            <option value="150 EGP">Violent Night</option>
+            <option value="300 EGP">Savage Salvation</option>
+            <option value="100 EGP">Black Adam</option>
+            <option value="120 EGP">Nikki & Nora: Sister Sleuths</option>
+            <option value="130 EGP">Agatha</option>
+            <option value="170 EGP">Overdose</option>
+            <option value="100 EGP">The Curse of La Patasola</option>
+        </optgroup>
+
+        <optgroup label="Arabic movies">
+            <option value="300 EGP">Love you (بحبك)</option>
+            <option value="160 EGP">Spider (العنكبوت)</option>
+            <option value="200 EGP">their uncle (عمهم)</option>
+            <option value="130 EGP">Fourth man (الرجل الرابع)</option>
+            <option value="180 EGP">Kira and the jinn (كيره والجن)</option>
+            <option value="240 EGP">The light of my eyes movie (نور عيني)</option>
+            <option value="250 EGP">Another one (واحد تاني)</option>
+            <option value="200 EGP">Mazinger plan (خطة مازنجر)</option>
+            <option value="260 EGP">Open invitation (الدعوة عامة)</option>
+        </optgroup>
+
+        <optgroup label="Anime movies">
+            <option value="200 EGP">Lyle, Lyle, Crocodile</option>
+            <option value="250 EGP">The Amazing Maurice</option>
+            <option value="240 EGP">Guillermo del Toro's Pinocchio</option>
+            <option value="300 EGP">Brave</option>
+            <option value="210 EGP">Night at the Museum: Kahmunrah Rises Again</option>
+            <option value="220 EGP">Howl's Moving Castle</option>
+            <option value="150 EGP">Detective Conan: The Bride of Halloween</option>
+            <option value="170 EGP">Encanto</option>
+            <option value="180 EGP">Finnick</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>    
+        <li>
+            <div class="seat occupied"></div>
+            <small>Sold</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">
+        You have selected <span id="count">0</span> seats for a price of <span id="total">0</span> LE
+    </p>
+    <div class="buttonch">
+        <button type="submit" class="btn btn-primary" style="background-color: salmon;position: relative; width: 150px; height: 50PX;"><a href="form-data-to-qr-code-main/index.html" target="_blank" style="color: white;">Next</a></button>
+    </div>
+    <script src="seats.js"></script>
+  </body>
+</html>
