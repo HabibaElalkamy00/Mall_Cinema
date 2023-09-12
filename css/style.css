@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    right: 50px;
+
+}
+
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    position: relative;
+    top: 10px;
+}
+
+.container1{
+    width: 80%;
+    margin: 0  auto;
+}
+
+.links{
+    position: relative;
+    left: 250px;
+}
+
+
+.links ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    
+}
+
+.links ul li{
+    margin: 10px 25px;
+    transition: 0.5s;
+}
+
+.links ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+
+.links ul li:hover{
+    background-color: salmon;
+    padding: 8px;
+    border-radius: 50px;
+    
+    
+}
+
+.image{
+    width: 25%;
+    height: 25%;
+}
+
+.p1{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+}
+
+.p2{
+    color:antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    font-size: 150%;
+}
+
+.p3{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+}
+
+.p4{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:70px ;
+}
+
+.p5{
+    color: antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:50px ;
+}
+
+.p6{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:70px ;
+}
+
+.p7{
+    color: antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:50px ;
+}
+
+.p8{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:70px ;
+}
+
+.p9{
+    color: antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:50px ;
+}
+
+.p10{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:70px ;
+}
+
+.p11{
+    color: antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:50px ;
+}
+
+.p12{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:70px ;
+}
+
+.p13{
+    color: antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:50px ;
+}
+
+.p14{
+    color: salmon;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:70px ;
+}
+
+.p15{
+    color: antiquewhite;
+    font-family: cursive;
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    bottom:50px ;
+}
+
+
+
+.button{
+    position: relative;
+    top:5px ;
+    left: 1000px;
+    width: 400px;
+    
+
+}
+
+.social{
+    margin: 0  auto;
+    position: relative;
+    
+}
+
+
+
+#e{
+    position: relative;
+    left: 80px;
+
+}
+
+#l{
+    position: relative;
+    left: 150px;
+}
+
+#m{
+    position: relative;
+    left: 220px;
+}
+
+#n{
+    position: relative;
+    left: 290px;
+}
+
+#t{
+    position: relative;
+    left: 360px;
+}
+
+#o{
+    position: relative;
+    left: 420px;
+}
+
+.form{
+    width: 80%;
+    margin: 0  auto;
+    position: relative;
+    top: 200px;
+}
+
+
+#image{
+    position: relative;
+    top: 300px;
+    width: 25%;
+    height: 25%;
+}
+
+
+.input1{
+    width: 500px;
+}
+
+
+#t1{
+    color: salmon;
+    font-family: cursive;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    
+}
+
+#image9{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    top:50px ;
+}
+
+.details{
+    position: relative;
+    top:80px ;
+}
+
+.buttonte{
+    font-family: cursive;
+    position: relative;
+    top:5px ;
+    left: 1300px;
+    width: 400px;
+}
+
+.form-label{
+    color: salmon;
+    font-family: cursive;
+}
+
+.form-text{
+    color: gray;
+    font-family: cursive;
+}
+
+.form-check-label{
+    font-family: cursive;
+    color: gray;
+}
+
+.buttonlog{
+    font-family: cursive;
+}
+
+.linksignup{
+    color: gray;
+    font-family: cursive;
+    position: relative;
+    left:600px ;
+}
+
+.buttonnext{
+    position: relative;
+    left:100px ;
+}
+
+#t10{
+    color: antiquewhite;
+    font-family: cursive;
+    position: relative;
+    left: 90px;
+    
+}
+
+#exampleInputtofcinema{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputnameoffilm{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputnumofroom{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputnumoftik{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputglasses{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputhead{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputParking{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputservice{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputkids{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputpriceoftype{
+    width: 1260px;
+    height: 40px;
+    color: salmon;
+}
+
+#exampleInputpriceofparking{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputpriceofservicecar{
+    width: 1260px;
+    height: 40px;
+}
+
+#exampleInputpriceofkidsarea{
+    width: 1260px;
+    height: 40px;
+}
+
+
+#exampleInputpriceoffood{
+    width: 1260px;
+    height: 40px;
+}
+
+
+#exampleInputpriceoffood{
+    width: 1260px;
+    height: 40px;
+    color: salmon;
+    font-family: cursive;
+}
+
+#exampleInputpriceofood{
+    width: 1260px;
+    height: 40px;
+    color: salmon;
+    font-family: cursive;
+}
+
+#exampleInputpriceofdrink{
+    width: 1260px;
+    height: 40px;
+    color: salmon;
+    font-family: cursive;
+}
+
+
+
+.buttonreg{
+    font-family: cursive;
+    position: relative;
+    bottom:20px ;
+    left: 1110px;
+    
+}
+
+
+.ch1{
+    width: 150px;
+    height: 150px;
+    margin: 250px 150px;
+}
+
+.ch2{
+    width: 250px;
+    height: 250px;
+}
+
+.oo{
+    display: inline-flex;
+}
+
+.buttonch{
+    font-family: cursive;
+    position: relative;
+    bottom:20px ;
+    left: 1320px;
+    
+}
+
+
+
+
+
+
+
+
